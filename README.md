@@ -1,6 +1,6 @@
 # Kotlin Notebook Talk
 
-Example repo for a Kotlin Notebooks project that uses Postgres as the data source.
+Example repo for a Kotlin Notebook project that uses Postgres as the data source.
 
 ## What you need
 
@@ -12,4 +12,4 @@ Example repo for a Kotlin Notebooks project that uses Postgres as the data sourc
 
 1. Clone the repo into IntelliJ and build the project
 2. Run `docker compose up` from the root directory (or press the arrow next to "services" in the `docker-compose.yml` file). This will create a postgres datasource including the `powerlifting_data` table
-3. Run the `main` function in `src/main/kotlin/data/DataImporter.kt`. This will populate your database with the data from the `openpowerlifting2023.csv` file in the project root
+3. Run the `main` function in `src/main/kotlin/data/DataImporter.kt`. This will populate your database with the data from the `openipf-2024-2025.csv` file in the project root
