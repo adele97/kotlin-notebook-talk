@@ -1,6 +1,6 @@
 plugins {
-    id("org.jetbrains.kotlinx.dataframe") version "1.0.0-Beta4"
-    kotlin("jvm") version "2.1.21"
+    id("org.jetbrains.kotlinx.dataframe") version "1.0.0-Beta4n"
+    kotlin("jvm") version "2.2.20"
     application
 }
 
@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     implementation("org.postgresql:postgresql:42.7.10")
-    implementation("org.jetbrains.kotlinx:dataframe:1.0.0-Beta4")
+    implementation("org.jetbrains.kotlinx:dataframe:1.0.0-Beta4n")
     implementation(kotlin("stdlib"))
     testImplementation(kotlin("test"))
 }
