@@ -12,7 +12,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.postgresql:postgresql:42.7.10")
+    implementation("org.postgresql:postgresql:42.7.11")
+    implementation("com.google.zxing:core:3.5.4")
+    implementation("com.google.zxing:javase:3.5.4")
     implementation("org.jetbrains.kotlinx:dataframe:1.0.0-Beta4n")
     implementation(kotlin("stdlib"))
     testImplementation(kotlin("test"))
